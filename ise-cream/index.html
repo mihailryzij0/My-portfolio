@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ise-cream</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;600;700&family=Roboto:wght@400;500&display=swap');
+    </style>
+</head>
+
+<body>
+    <section class="section-main">
+        <header class="header">
+    <div class="header-item">
+        <div class="logo-polar"></div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a href="#" class="nav-item__link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-item__link">Product</a></li>
+                <li class="nav-item"><a href="#" class="nav-item__link">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-item__link">Testimonials</a></li>
+                <li class="nav-item"><a href="#" class="nav-item__link">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-item">
+        <button type="button" class="btn btn-primary mobil-menu" data-toggle="modal" data-target="#exampleModal"></button>
+        <a href="#" class="btn header-button">Buy Now</a>
+    </div>
+</header>
+        <div class="main">
+            <div class="main-text">
+                <p class="main-text__sobtitle">Sweet fun, full of milk.</p>
+                <hi class="main-text__title">Feel inside cold with our delicious <span
+                        class="main-text__title-color">ice-cream.</span></hi>
+                <p class="main-text__description">Some food has looked so awful that it's looked like something that the
+                    dog's brought home, yet after one mouthful I've been left eating my thoughts, my words.</p>
+                <a href="#" class="main-text__btn btn">Buy Now</a>
+            </div>
+            <div class="main-visual">
+                <img src="img/main-cream.png" alt="мороженное" class="main-visual__img">
+
+            </div>
+        </div>
+    </section>
+    <section class="section-about">
+        <div class="wrapper">
+            <ul class="about">
+                <li class="about-item about-item__shipping">
+                    <h3 class="about-item__title">Free Shipping</h3>
+                    <p class="about-item__description">Last Chance! Free shipping on all orders&nbsp;ends&nbsp;today.
+                    </p>
+                </li>
+                <li class="about-item about-item__quick">
+                    <h3 class="about-item__title">Quick Packaging</h3>
+                    <p class="about-item__description">Last Chance! Free shipping on all orders&nbsp;ends&nbsp;today.
+                    </p>
+                </li>
+                <li class="about-item about-item__back">
+                    <h3 class="about-item__title">100% Money Back</h3>
+                    <p class="about-item__description">Last Chance! Free shipping on all orders&nbsp;ends&nbsp;today.
+                    </p>
+                </li>
+                <li class="about-item about-item__delivery">
+                    <h3 class="about-item__title">Fast Delivery</h3>
+                    <p class="about-item__description">Last Chance! Free shipping on all orders&nbsp;ends&nbsp;today.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section-brown">
+        <div class="wrapper">
+            <div class="brown">
+                <div class="brown-text">
+                    <h2 class="brown-text__title">Brown Sugar Oatmea</h2>
+                    <div class="brown-text__description">Together with McDonald’s, Burger King has grown to become
+                        synonymous with burgers in the US.Together with McDonald’s, Burger King has grown to become
+                        synonymous.</div>
+                    <a href="#" class="brown-text__btn btn">See Details</a>
+                </div>
+                <img src="img/brown.png" alt="овсяное-мороженное" class="brown-image">
+            </div>
+        </div>
+    </section>
+    <section class="section-catalog">
+        <h3 class="section-catalog-title">Our Product</h3>
+        <div class="wrapper">
+            <div class="catalog" id="tabs">
+                <ul>
+                    <li><a href="#tabs-1">ICE CREAM</a></li>
+                    <li><a href="#tabs-2">CAYENNE CHOCOLATE</a></li>
+                    <li><a href="#tabs-3">CAKE BATTER</a></li>
+                    <li><a href="#tabs-4">CANDY CANE</a></li>
+                    <li><a href="#tabs-5">PLATTERS</a></li>
+                    <li><a href="#tabs-6">DESSERT</a></li>
+                </ul>
+                <div id="tabs-1">
+                    <div class="catalog-item">
+                        <img src="img/brown-2.png" alt="фисташовое" class="catalog-item__image">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Brown bread</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Cayenne chocolate</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                        <img src="img/cayenne.png" alt="лемон" class="catalog-item__image">
+                    </div>
+                    <div class="catalog-item">
+                        <img src="img/sweet.png" alt="шоколад" class="catalog-item__image">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Sweet corn</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="tabs-2">
+                    <div class="catalog-item">
+                        <img src="img/brown-2.png" alt="фисташовое" class="catalog-item__image">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Brown bread</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Cayenne chocolate</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                        <img src="img/cayenne.png" alt="лемон" class="catalog-item__image">
+                    </div>
+                    <div class="catalog-item">
+                        <img src="img/sweet.png" alt="шоколад" class="catalog-item__image">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Sweet corn</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="tabs-3">
+                    <div class="catalog-item">
+                        <img src="img/brown-2.png" alt="фисташовое" class="catalog-item__image">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Brown bread</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Cayenne chocolate</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                        <img src="img/cayenne.png" alt="лемон" class="catalog-item__image">
+                    </div>
+                    <div class="catalog-item">
+                        <img src="img/sweet.png" alt="шоколад" class="catalog-item__image">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Sweet corn</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="tabs-4">
+                    <div class="catalog-item">
+                        <img src="img/brown-2.png" alt="фисташовое" class="catalog-item__image">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Brown bread</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Cayenne chocolate</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                        <img src="img/cayenne.png" alt="лемон" class="catalog-item__image">
+                    </div>
+                    <div class="catalog-item">
+                        <img src="img/sweet.png" alt="шоколад" class="catalog-item__image">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Sweet corn</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="tabs-5">
+                    <div class="catalog-item">
+                        <img src="img/brown-2.png" alt="фисташовое" class="catalog-item__image">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Brown bread</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Cayenne chocolate</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                        <img src="img/cayenne.png" alt="лемон" class="catalog-item__image">
+                    </div>
+                    <div class="catalog-item">
+                        <img src="img/sweet.png" alt="шоколад" class="catalog-item__image">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Sweet corn</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="tabs-6">
+                    <div class="catalog-item">
+                        <img src="img/brown-2.png" alt="фисташовое" class="catalog-item__image">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Brown bread</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Cayenne chocolate</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                        <img src="img/cayenne.png" alt="лемон" class="catalog-item__image">
+                    </div>
+                    <div class="catalog-item">
+                        <img src="img/sweet.png" alt="шоколад" class="catalog-item__image">
+                        <div class="catalog-item__text">
+                            <h2 class="catalog-item__text-title">Sweet corn</h2>
+                            <div class="catalog-item__text-description">Bon Au Pain is a pioneer in the healthy fast
+                                food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+                                pioneer in the healthy fast food scene.</div>
+                            <p class="catalog-item__text-pryce">$19.55<span
+                                    class="catalog-item__text-sobpryce">$22.55</span></p>
+                            <a href="#" class="catalog-item__text-btn btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="catalog-bottom">
+                <div class="slider">
+                    <div class="slider-for">
+                        <div class="slider-for-item">
+                            <div class="slider-for-item__name">
+                                <img src="img/face.png" alt="face-coment">
+                                <div class="ml">
+                                    <h2 class="slider-for-item__name-title">Adele A. McNeill</h2>
+                                    <p class="slider-for-item__name-sobtitle">AMIRICAN</p>
+                                </div>
+                            </div>
+                            <p class="slider-for-item__description"><span class="quote-start"></span> Thanks a lot for
+                                the
+                                prompt service. Really appreciate.
+                                Excellence taste in Every Bite.Add a joy of best Taste. Foodie Moments. <span
+                                    class="quote-end"></span></p>
+                        </div>
+                        <div class="slider-for-item">
+                            <div class="slider-for-item__name">
+                                <img src="img/face.png" alt="face-coment">
+                                <div class="ml">
+                                    <h2 class="slider-for-item__name-title">Adele A. McNeill</h2>
+                                    <p class="slider-for-item__name-sobtitle">AMIRICAN</p>
+                                </div>
+                            </div>
+                            <p class="slider-for-item__description"><span class="quote-start"></span> Thanks a lot for
+                                the
+                                prompt service. Really appreciate.
+                                Excellence taste in Every Bite.Add a joy of best Taste. Foodie Moments. <span
+                                    class="quote-end"></span></p>
+                        </div>
+                        <div class="slider-for-item">
+                            <div class="slider-for-item__name">
+                                <img src="img/face.png" alt="face-coment">
+                                <div class="ml">
+                                    <h2 class="slider-for-item__name-title">Adele A. McNeill</h2>
+                                    <p class="slider-for-item__name-sobtitle">AMIRICAN</p>
+                                </div>
+                            </div>
+                            <p class="slider-for-item__description"><span class="quote-start"></span> Thanks a lot for
+                                the
+                                prompt service. Really appreciate.
+                                Excellence taste in Every Bite.Add a joy of best Taste. Foodie Moments. <span
+                                    class="quote-end"></span></p>
+                        </div>
+                        <div class="slider-for-item">
+                            <div class="slider-for-item__name">
+                                <img src="img/face.png" alt="face-coment">
+                                <div class="ml">
+                                    <h2 class="slider-for-item__name-title">Adele A. McNeill</h2>
+                                    <p class="slider-for-item__name-sobtitle">AMIRICAN</p>
+                                </div>
+                            </div>
+                            <p class="slider-for-item__description"><span class="quote-start"></span> Thanks a lot for
+                                the
+                                prompt service. Really appreciate.
+                                Excellence taste in Every Bite.Add a joy of best Taste. Foodie Moments. <span
+                                    class="quote-end"></span></p>
+                        </div>
+                        <div class="slider-for-item">
+                            <div class="slider-for-item__name">
+                                <img src="img/face.png" alt="face-coment">
+                                <div class="ml">
+                                    <h2 class="slider-for-item__name-title">Adele A. McNeill</h2>
+                                    <p class="slider-for-item__name-sobtitle">AMIRICAN</p>
+                                </div>
+                            </div>
+                            <p class="slider-for-item__description"><span class="quote-start"></span> Thanks a lot for
+                                the
+                                prompt service. Really appreciate.
+                                Excellence taste in Every Bite.Add a joy of best Taste. Foodie Moments. <span
+                                    class="quote-end"></span></p>
+                        </div>
+                    </div>
+                    <div class="slider-nav">
+                        <div class="slider-nav-item">
+                            <img class="slider-nav-item__img" src="img/face.png" alt="face-coment">
+                        </div>
+                        <div class="slider-nav-item">
+                            <img class="slider-nav-item__img" src="img/face.png" alt="face-coment">
+                        </div>
+
+                        <div class="slider-nav-item">
+                            <img class="slider-nav-item__img" src="img/face.png" alt="face-coment">
+                        </div>
+
+                        <div class="slider-nav-item">
+                            <img class="slider-nav-item__img" src="img/face.png" alt="face-coment">
+                        </div>
+
+                        <div class="slider-nav-item">
+                            <img class="slider-nav-item__img" src="img/face.png" alt="face-coment">
+                        </div>
+
+                        <div class="slider-nav-item">
+                            <img class="slider-nav-item__img" src="img/face.png" alt="face-coment">
+                        </div>
+                    </div>
+                </div>
+
+                <img src="img/coment.png" alt="сироп" class="catalog-bottom-image">
+            </div>
+        </div>
+    </section>
+    <section class="section-mobile">
+        <div class="wrapper">
+            <div class="mobile">
+                <div class="mobile-item">
+                    <div class="mobile-item__thub">
+                        <img class="mobile-item__thub-img" src="img/scrin.png" alt="mobile-app">
+                    </div>
+                </div>
+                <div class="mobile-item">
+                    <h3 class="mobile-item__title">Simple Way To Order Your Food</h3>
+                    <p class="mobile-item__description">Some food has looked so awful that it's looked like something
+                        that the dog's brought home, yet after one mouthful I've been left eating my thoughts.</p>
+                    <ul class="mobile-item__list">
+                        <li class="mobile-item__list-chaild">Select Your Food</li>
+                        <li class="mobile-item__list-chaild">Add To Cart</li>
+                        <li class="mobile-item__list-chaild">Order Your Food</li>
+                    </ul>
+                    <div class="mobile-item__footer">
+                        <a class="mobile-item__footer-google" href="#"><img src="img/google.png"
+                                alt="google-play"></a>
+                        <a class="mobile-item__footer-app" href="#"><img src="img/app.png" alt="app-store"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-form">
+        <form class="form-question">
+            <h2 class="form-question-h2">Have Question in Mind?<br>Let us help you</h2>
+            <div class="form-question-inner">
+                <input class="form-question-inner__input" type="text" placeholder="Enter your question">
+                <button class="form-question-inner__btn btn">Send</button>
+            </div>
+        </form>
+    </section>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="logo-polar"></div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <ul class="modal-list">
+                    <li class="modal-list-item"><a href="#" class="modal-list-item__link">Home</a></li>
+                    <li class="modal-list-item"><a href="#" class="modal-list-item__link">Product</a></li>
+                    <li class="modal-list-item"><a href="#" class="modal-list-item__link">Pricing</a></li>
+                    <li class="modal-list-item"><a href="#" class="modal-list-item__link">Testimonials</a></li>
+                    <li class="modal-list-item"><a href="#" class="modal-list-item__link">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <ul class="modal-footer-list">
+                    <li class="modal-footer-list__item"><img src="img/svg/paypal.svg" alt="paypal"></li>
+                    <li class="modal-footer-list__item"><img src="img/svg/mastercard.svg" alt="mastercard"></li>
+                    <li class="modal-footer-list__item"><img src="img/svg/visa.svg" alt="visa"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <footer class="footer">
+    <div class="wrapper">
+        <div class="box-footer">
+            <div class="box-footer-item">
+                <div class="box-about">
+                    <div class="logo-polar box-about-logo"></div>
+                    <p class="box-about-text">Some food has looked so awful that it's looked like something that the dog's brought home.</p>
+                    <ul class="box-about-list">
+                        <li class="box-about-list__item"><img src="img/svg/paypal.svg" alt="paypal"></li>
+                        <li class="box-about-list__item"><img src="img/svg/mastercard.svg" alt="mastercard"></li>
+                        <li class="box-about-list__item"><img src="img/svg/visa.svg" alt="visa"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box-footer-item">
+                <ul class="box-info">
+                    <li class="box-info-item"><a class="box-info-item__link" href="#">Delivery Information</a></li>
+                    <li class="box-info-item"><a class="box-info-item__link" href="#">Privacy Policy</a></li>
+                    <li class="box-info-item"><a class="box-info-item__link" href="#">Terms & Condition</a></li>
+                    <li class="box-info-item"><a class="box-info-item__link" href="#">Search Terms</a></li>
+                    <li class="box-info-item"><a class="box-info-item__link" href="#">Order & Return</a></li>
+                </ul>
+            </div>
+            <div class="box-footer-item">
+                <form class="box-form">
+                    <label class="box-form-label" for="">Newsletter</label>
+                    <div class="box-form-inner">
+                        <input class="box-form-inner__input" type="text" placeholder="Your Email">
+                        <button class="box-form-inner__btn btn">Subscribe</button>
+                    </div>
+                </form>
+  
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+        });
+    </script>
+    <script>
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            centerMode: true,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            centerMode: true,
+            centerPadding: (20)
+
+        });
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/vendor.js"></script>
+</body>
+
+</html>
