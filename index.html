@@ -17,9 +17,7 @@
                     <ul class="nav">
                         <li class="nav-item"><a class="nav-link" href="#about">Обо мне</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Портфолио</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#tech">Этапы работ</a></li>
-                        <li class="nav-item nav-del"><a class="nav-link" href="#">Цены</a></li>
-                        <li class="nav-item nav-del"><a class="nav-link" href="#">Обратная связь</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tech">Навыки</a></li>
                     </ul>
                 </nav>
                 <ul class="nav nav-info">
@@ -43,7 +41,7 @@
                         <path d="M33 0L65.909 71.25H0.0910339L33 0Z" />
                     </svg> 
                     <p class="name">Рыжий Михаил</p>
-                    <h1 class="title-h1">Работы по верстке</h1>
+                    <h1 class="title-h1">web-разработчик</h1>
                   </div>
                   <div class="social">
                       <div class="social-item">
@@ -61,6 +59,17 @@
                       </div>
                   </div>
             </main>
+            <section class="section-about">
+                <div id="about" class="about">
+                    <div class="about-item about-title">
+                        <p>Обо мне</p>
+                    </div>
+                    <div class="about-item about-description">
+                        <p> Увлеченно изучаю веб-разработку. Прошел базовый и углубленный курс верстке, курс JavaScript Developer от OTUS. Есть множество выполненных работ, большинство из них выложены на GitHub.
+                            Целеустремленный, очень ответственный, имею успехи в спорте </p>
+                    </div>
+                </div>
+            </section>    
             <h1 id="portfolio" class="title-h1 portfolio">Портфолио</h1>
         </div>
         <div class="gradient">
@@ -76,57 +85,82 @@
                           <li class="nav-tabs-item"><a class="nav-tabs-link" href="#tabs-3">Пример-3</a></li>
                         </ul>
                         <div id="tabs-1">
-                          <div class="work">
-                              <div class="work-item">
-                                  <h3 class="work-title">Healthly food</h3>
-                                  <ul class="work-list">
-                                      <li class="work-list-item">– верстка по макету из PSD</li>
-                                      <li class="work-list-item">– В работе использовал (Bootstrap, Slick slider, Gulp)</li>
-                                      <li class="work-list-item">– адаптив до 320px</li>
-                                  </ul>
-                                  <p class="work-time"><a class="work-time-link" href="https://github.com/mihailryzij0/OrganicWeb">Ссылка на GitHub</a></p>
-                              </div>
-                              <div class="work-item">
-                                <a class="work-thumb" href="https://mihailryzij0.github.io/My-portfolio/organic/">
-                                    <img src="/img/corsor.svg" alt="cursor" class="work-cursor">
-                                      <img class="work-image" src="img/portfolio/organic.png" alt="Organic">
-                                 </a>
-                              </div>
-                          </div>
-                          <div class="work">
-                            <div class="work-item">
-                                <h3 class="work-title">Homefor</h3>
-                                <ul class="work-list">
-                                    <li class="work-list-item">– верстка по макету из PSD</li>
-                                    <li class="work-list-item">– В работе использовал (Bootstrap, Slick slider, jquery-ui,Gulp)</li>
-                                    <li class="work-list-item">– адаптив до 320px</li>
-                                </ul>
-                                <p class="work-time"><a class="work-time-link" href="https://github.com/mihailryzij0/Homefor">Ссылка на GitHub</a></p>
+                            <div class="work">
+                                <div class="work-item">
+                                    <h3 class="work-title">PowerBody</h3>
+                                    <ul class="work-list">
+                                        <li class="work-list-item">– PWA приложение для мобильных устройств</li>
+                                        <li class="work-list-item">– В работе использовал (React, Material-ui, Redux, TypeScript)</li>
+                                    </ul>
+                                    <p class="work-time"><a class="work-time-link" href="https://github.com/mihailryzij0/PowerBody/tree/final-task">Ссылка на GitHub</a></p>
+                                </div>
+                                <div class="work-item">
+                                  <a class="work-thumb" href="https://powerbody-6330f.web.app/posts">
+                                      <img src="/img/corsor.svg" alt="cursor" class="work-cursor">
+                                        <img class="work-image" src="img/portfolio/PowerBody.png" alt="PowerBody">
+                                   </a>
+                                </div>
                             </div>
-                            <div class="work-item">
-                                <a class="work-thumb" href="https://mihailryzij0.github.io/My-portfolio/homefor/">
-                                    <img src="/img/corsor.svg" alt="cursor" class="work-cursor">
-                                    <img class="work-image" src="img/portfolio/homefor.png" alt="homefor">
-                                </a>
+                            <div class="work">
+                                <div class="work-item">
+                                    <h3 class="work-title">Weather-Forecast</h3>
+                                    <ul class="work-list">
+                                        <li class="work-list-item">- В работе использовал (JavaScript, CSS, HTML, TypeScript)</li>
+                                        <li class="work-list-item">- 
+                                             Приложение написано в двух вариантах на ванильном JS и на абстрактных классах с использованием TypeScript.
+                                        </li>
+                                    </ul>
+                                    <p class="work-time">
+                                      <a class="work-time-link" href="https://github.com/mihailryzij0/Otus-Weather-Forecast/tree/hw/6">Ссылка на GitHub(Вариант 1)</a>
+                                    </p>
+                                    <p class="work-time">
+                                        <a class="work-time-link" href="https://github.com/mihailryzij0/Otus-Weather-Forecast/tree/hw/13">Ссылка на GitHub(Вариант 2)</a>
+                                    </p>
+                                </div>
+                                <div class="work-item">
+                                  <a class="work-thumb" href="https://mihailryzij0.github.io/Otus-Weather-Forecast/">
+                                      <img src="/img/corsor.svg" alt="cursor" class="work-cursor">
+                                        <img class="work-image" src="img/portfolio/Weather-Forecast.png" alt="PowerBody">
+                                   </a>
+                                </div>
                             </div>
-                        </div>
+                            <div class="work">
+                                <div class="work-item">
+                                    <h3 class="work-title">Game-of-life</h3>
+                                    <ul class="work-list">
+                                        <li class="work-list-item">- В работе использовал (TypeScript, CSS, HTML)</li>
+                                        <li class="work-list-item">-  
+                                            Дополнительно реализовал изменение размеров поля и скорости игры. 
+                                        </li>
+                                    </ul>
+                                    <p class="work-time">
+                                      <a class="work-time-link" href="https://github.com/mihailryzij0/game-of-life-ts/tree/hw/9">Ссылка на GitHub</a>
+                                    </p>
+                                </div>
+                                <div class="work-item">
+                                  <a class="work-thumb" href=" https://mihailryzij0.github.io/game-of-life-ts/">
+                                      <img src="/img/corsor.svg" alt="cursor" class="work-cursor">
+                                        <img class="work-image" src="img/portfolio/GameOfLife.png" alt="GameOfLife">
+                                   </a>
+                                </div>
+                            </div>
                         </div>
                         <div id="tabs-2">
                             <div class="work">
                                 <div class="work-item">
-                                    <h3 class="work-title">Polar</h3>
+                                    <h3 class="work-title">Healthly food</h3>
                                     <ul class="work-list">
-                                        <li class="work-list-item">– верстка по макету из Figma</li>
-                                        <li class="work-list-item">– В работе использовал (Bootstrap, Slick slider, jquery,Gulp)</li>
+                                        <li class="work-list-item">– верстка по макету из PSD</li>
+                                        <li class="work-list-item">– В работе использовал (Bootstrap, Slick slider, Gulp)</li>
                                         <li class="work-list-item">– адаптив до 320px</li>
                                     </ul>
-                                    <p class="work-time"><a class="work-time-link" href="https://github.com/mihailryzij0/ise-cream">Ссылка на GitHub</a></p>
+                                    <p class="work-time"><a class="work-time-link" href="https://github.com/mihailryzij0/OrganicWeb">Ссылка на GitHub</a></p>
                                 </div>
                                 <div class="work-item">
-                                    <a class="work-thumb" href="https://mihailryzij0.github.io/My-portfolio/ise-cream/">
-                                        <img src="/img/corsor.svg" alt="cursor" class="work-cursor">
-                                        <img class="work-image" src="img/portfolio/ise-cream.png" alt="ise-cream">
-                                    </a>
+                                  <a class="work-thumb" href="https://mihailryzij0.github.io/My-portfolio/organic/">
+                                      <img src="/img/corsor.svg" alt="cursor" class="work-cursor">
+                                        <img class="work-image" src="img/portfolio/organic.png" alt="Organic">
+                                   </a>
                                 </div>
                             </div>
                             <div class="work">
@@ -146,10 +180,43 @@
                                     </a>
                                 </div>
                             </div>
+                            <div class="work">
+                                <div class="work-item">
+                                    <h3 class="work-title">Homefor</h3>
+                                    <ul class="work-list">
+                                        <li class="work-list-item">– верстка по макету из PSD</li>
+                                        <li class="work-list-item">– В работе использовал (Bootstrap, Slick slider, jquery-ui,Gulp)</li>
+                                        <li class="work-list-item">– адаптив до 320px</li>
+                                    </ul>
+                                    <p class="work-time"><a class="work-time-link" href="https://github.com/mihailryzij0/Homefor">Ссылка на GitHub</a></p>
+                                </div>
+                                <div class="work-item">
+                                    <a class="work-thumb" href="https://mihailryzij0.github.io/My-portfolio/homefor/">
+                                        <img src="/img/corsor.svg" alt="cursor" class="work-cursor">
+                                        <img class="work-image" src="img/portfolio/homefor.png" alt="homefor">
+                                    </a>
+                                </div>
+                            </div>
                           </div>
                         
                           <div id="tabs-3">
-                          
+                            <div class="work">
+                                <div class="work-item">
+                                    <h3 class="work-title">Polar</h3>
+                                    <ul class="work-list">
+                                        <li class="work-list-item">– верстка по макету из Figma</li>
+                                        <li class="work-list-item">– В работе использовал (Bootstrap, Slick slider, jquery,Gulp)</li>
+                                        <li class="work-list-item">– адаптив до 320px</li>
+                                    </ul>
+                                    <p class="work-time"><a class="work-time-link" href="https://github.com/mihailryzij0/ise-cream">Ссылка на GitHub</a></p>
+                                </div>
+                                <div class="work-item">
+                                    <a class="work-thumb" href="https://mihailryzij0.github.io/My-portfolio/ise-cream/">
+                                        <img src="/img/corsor.svg" alt="cursor" class="work-cursor">
+                                        <img class="work-image" src="img/portfolio/ise-cream.png" alt="ise-cream">
+                                    </a>
+                                </div>
+                            </div>
                             <div class="work">
                               <div class="work-item">
                                 <h3 class="work-title">Sultan</h3>
@@ -172,6 +239,7 @@
                 </section>
             </div>
         </div>
+        
 
         <div class="wrapper">
             <section id="tech" class="section-tech">
@@ -185,32 +253,29 @@
                     <div class="tech-item js">
                         <img class="tech-image" src="img/tech/js.svg" alt="JavaScript" title="Язык программирования высокого уровня, использующийся для придания интерактивности веб-страницам">
                     </div>
-                    <div class="tech-item jquery">
-                        <img class="tech-image" src="img/tech/jquery.svg" alt="jQuery" title="Популярная баблиотека JavaScript">
+                    <div class="tech-item typeScript">
+                        <img class="tech-image" src="img/tech/TypeScript.svg" alt="TypeScript" title="Язык программирования, представленный Microsoft в 2012 году и позиционируемый как средство разработки веб-приложений">
                     </div>
                     <div class="tech-item bootstrap">
                         <img class="tech-image" src="img/tech/bootstrap.svg" alt="Bootstrap" title="Популярный CSS фреймворк">
                     </div>
-                    <div class="tech-item php">
-                        <img class="tech-image" src="img/tech/php.svg" alt="PHP" title="Серверный язык программирования">
+                    <div class="tech-item react">
+                        <img class="tech-image" src="img/tech/react.svg" alt="react" title="JavaScript библиотека с открытым исходным кодом">
                     </div>
-                    <div class="tech-item vue">
-                        <img class="tech-image" src="img/tech/vue.svg" alt="VueJS" title="JS-фреймворк для создания пользовательских интерфейсов">
+                    <div class="tech-item redux">
+                        <img class="tech-image" src="img/tech/redux.svg" alt="redux" title="Предсказуемое хранилище состояния для JavaScript приложений">
                     </div>
-                    <div class="tech-item wp">
-                        <img class="tech-image" src="img/tech/wp.svg" alt="WordPress" title="Популярная CMS для создания блогов">
+                    <div class="tech-item webpack">
+                        <img class="tech-image" src="img/tech/webpack.svg" alt="webpack" title="Это инструмент, позволяющий скомпилировать, например, JavaScript модули в единый JS-файл">
                     </div>
                 </div>
-                <p class="section-tech-description">* цветом обозначены технологии которые я использую (освоил)</p>
             </section>
             <footer>
                 <div class="footer-top">
                     <ul class="nav">
                         <li class="nav-item"><a class="nav-link" href="#about">Обо мне</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Портфолио</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#tech">Этапы работ</a></li>
-                        <li class="nav-item nav-del"><a class="nav-link" href="#">Цены</a></li>
-                        <li class="nav-item nav-del"><a class="nav-link" href="#">Обратная связь</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tech">Навыки</a></li>
                     </ul>
                     <ul class="nav nav-info">
                         <li class="nav-item"><a class="dialog-tel" href="tel:+79229566122">8 922 956-61-22</a></li>
@@ -226,9 +291,7 @@
         <ul class="dialog-nav">
             <li class="dialog-nav__item"><a class="dialog-nav__link" href="#about">Обо мне</a></li>
             <li class="dialog-nav__item"><a class="dialog-nav__link" href="#portfolio">Портфолио</a></li>
-            <li class="dialog-nav__item"><a class="dialog-nav__link" href="#tech">Этапы работ</a></li>
-            <li class="dialog-nav__item nav-del"><a class="dialog-nav__link" href="#">Цены</a></li>
-            <li class="dialog-nav__item nav-del"><a class="dialog-nav__link" href="#">Обратная связь</a></li>
+            <li class="dialog-nav__item"><a class="dialog-nav__link" href="#tech">Навыки</a></li>
         </ul>
         <svg class="circle dialog-circle" viewBox="0 0 253 253" xmlns="http://www.w3.org/2000/svg">
             <circle cx="126.5" cy="126.5" r="126.5"/>

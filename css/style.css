@@ -63,7 +63,7 @@ body {
 .dark .html,
 .dark .css,
 .dark .js,
-.dark .jquery {
+.dark .typeScript {
     border-top: 1px solid rgba(243, 242, 240, 0.3);
 }
 .dark .tarif-list-item::before {
@@ -559,11 +559,7 @@ header {
 .section-tech-description{
     font-size: 10px;
 }
-.html .tech-image, .css .tech-image, 
-.bootstrap .tech-image, .jquery .tech-image{
-    filter: grayscale(0);
-}
-.tech-item:hover .tech-image {
+.tech-item .tech-image {
     filter: grayscale(0);
 }
 .jquery .tech-image {
@@ -806,8 +802,8 @@ header {
     .tech {
         grid-template: 120px 120px / repeat(4, 1fr);
     }
-    .tech-image, .jquery .tech-image {
-        width: 50px;
+    .tech-image, .typeScript .tech-image {
+        width: 145px;
     }
     .advantages {
         grid-template-columns: 1fr;
